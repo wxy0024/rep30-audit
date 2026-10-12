@@ -1,0 +1,10 @@
+cohort_id,dataset,type,specimen,access_route,n,evidential_role,n_comparisons
+C1,"GSE26459 (MCF-7, 4-OHT acquired)",bulk in-vitro model,cell line,GEO GSE26459,24,acquired-resistance model,1
+C2,"GSE45255 (tumour, tamoxifen-treated)",bulk primary,primary,GEO GSE45255,137,subtype surrogate (ER-),1
+C3,TCGA-BRCA,bulk primary,primary,GDC / public processed matrices,1069,labels + prognosis,16
+C4,METABRIC,bulk primary,primary,cBioPortal brca_metabric,1979,labels + prognosis,8
+C5,GSE264205 (longitudinal pre/post/metastatic scRNA),single-cell,primary + metastasis,GEO GSE264205,"16,368 cells; 4 timepoints (Pre/Post1/Post2/Meta)",tumour-state trajectory,4
+C6,AURORA US (metastatic biopsy programme),bulk metastatic,primary + metastasis,GEO GSE209998 + cBioPortal brca_aurora_2023 (same 53 patients),53,"labels, tumour state, treatment dose",116
+C7,MET500 (Michigan metastatic biopsy),bulk metastatic,metastasis,MET500 public tables,496,"labels, pan-cancer vs breast",66
+C8,MBCproject / Count Me In (2022 release),bulk metastatic,mostly primary specimen,cBioPortal brca_mbcproject_2022,120,labels + treatment exposure,246
+S1,3-cohort Harmony integration (derived),single-cell (derived),mixed,derived from C5 + GSE249361 + GSE161529,"96,368 cells",variance decomposition (supporting),3
